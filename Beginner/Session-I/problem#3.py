@@ -1,5 +1,7 @@
-alpha = input()
-if alpha.isalpha() == True:
-    print('Alphabet')
+#Find if given input is vowel or not
+alpha = input().lower()
+vowel = "aeiou"
+if alpha in vowel:
+    print("Vowel")
 else:
-    print('No')
+    print("No")
