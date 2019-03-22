@@ -5,12 +5,12 @@ class eOrO:
         self.n = n
         assert self.n>0
         if self.n>0 and self.n%2 == 0:
-            print('even')
+            print('Even')
         elif self.n>0:
-            print('odd')
+            print('Odd')
 obj = eOrO()
 inp = int(input())
 try:
     obj.find(inp)
 except Exception:
-    print('Invalid')
+    print('invalid')
