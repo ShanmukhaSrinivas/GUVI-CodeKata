@@ -13,6 +13,6 @@ f = 0
 l = len(s)
 flag = recur(s,0,f)
 if flag == 1:
-    print("No")
+    print("no")
 else:
-    print("Yes")
+    print("yes")
