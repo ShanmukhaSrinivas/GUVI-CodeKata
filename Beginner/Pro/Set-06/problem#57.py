@@ -5,7 +5,6 @@ for i in n:
     for j in m:
         if i == j:
             count+=1
-print(count)
 if count >= 2:
     print("yes")
 else:
