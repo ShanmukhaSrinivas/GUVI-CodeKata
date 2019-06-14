@@ -1,3 +1,3 @@
 #Power function usage
-n,m = [int(i) for i in input().split()]
-print(pow(n,m))
+n = [int(i) for i in input().split()]
+print(pow(n[0],n[1]))
