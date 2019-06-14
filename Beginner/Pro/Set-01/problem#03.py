@@ -1,7 +1,14 @@
 x, y = [i for i in input().split()]
-k=[]
-for i in range(min(len(x),len(y))):
-    l = ord(y[i])-ord(x[i])
-    if l > 0:
-        k.append(l)
-s = set(k)
+for i in x:
+        for j in y:
+                if i == j:
+                        continue
+                else:
+                        break
+        else:
+                break
+k = y.index(j)
+if k == 0:
+        print(len(y))
+else:
+        print(len(y)-(k+2))
