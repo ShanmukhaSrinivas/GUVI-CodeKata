@@ -1,5 +1,5 @@
 n = input()
-if n == n[::-1]:
+if n == ''.join(list(reversed(n))):
     print('yes')
 else:
     print('no')
