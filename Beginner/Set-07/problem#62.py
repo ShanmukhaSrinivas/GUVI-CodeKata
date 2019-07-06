@@ -1,9 +1,5 @@
-n = input()
-for i in n:
-    if i == '0' or i == '1':
-        continue
-    else:
-        print('no')
-        break
+n = list(set(input()))
+if n == ['0','1'] or ['1','0']:
+    print("yes")
 else:
-    print('yes')
+    print("no")
