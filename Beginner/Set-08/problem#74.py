@@ -1,1 +1,2 @@
-print(int(round(float(input()))))
+n = float(input())
+print(int(n)+1)
