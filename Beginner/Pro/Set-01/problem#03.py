@@ -5,7 +5,5 @@ for i in range(min(len(x), len(y))):
         continue
     else:
         count += 1
-        x = list(x)
-        x.remove(x[i])
-        x = ''.join(x)
+        x = ''.join(list(x).remove(x[i])
 print(max(len(x), len(y)) - (i+1) + count)
