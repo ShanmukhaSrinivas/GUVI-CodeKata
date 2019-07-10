@@ -1,11 +1,12 @@
 def func(string):
     k = ''
-    Length = len(string)
-    for i in range(Length+1):
-        new = string[0:i]
-        if len(new) == len(set(new)):
-            if len(k) < len(new):
-                k = new
+    LengthOfPalindrome = len(string)
+    for i in range(LengthOfPalindrome+1):
+        for j in range(LengthOfPalindrome+1):
+            new = string[i:j]
+            if len(new) == len(set(new)):
+                if len(k) < len(new):
+                    k = new
     return len(k)
 
 
