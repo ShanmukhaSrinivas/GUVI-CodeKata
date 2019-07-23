@@ -1,3 +1,4 @@
+L = int(input())
 n = [int(i) for i in input().split()]
 k = []
 for i in n:
